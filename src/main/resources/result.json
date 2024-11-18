@@ -1,0 +1,279 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.example.demo_mongo.PerformanceMongoTest.performTest",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/home/kirill/.sdkman/candidates/java/21.0.1-tem/bin/java",
+        "jvmArgs" : [
+            "-server"
+        ],
+        "jdkVersion" : "21.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.1+12-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "y" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 2006.3639372000002,
+            "scoreError" : 2.304220949034976,
+            "scoreConfidence" : [
+                2004.0597162509653,
+                2008.6681581490352
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2005.8019454,
+                "50.0" : 2006.1823364,
+                "90.0" : 2007.1125844,
+                "95.0" : 2007.1125844,
+                "99.0" : 2007.1125844,
+                "99.9" : 2007.1125844,
+                "99.99" : 2007.1125844,
+                "99.999" : 2007.1125844,
+                "99.9999" : 2007.1125844,
+                "100.0" : 2007.1125844
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2007.1125844,
+                    2006.8727932,
+                    2006.1823364,
+                    2005.8500266,
+                    2005.8019454
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.example.demo_mongo.PerformanceMongoTest.performTest",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/home/kirill/.sdkman/candidates/java/21.0.1-tem/bin/java",
+        "jvmArgs" : [
+            "-server"
+        ],
+        "jdkVersion" : "21.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.1+12-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "y" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 2007.4182724399998,
+            "scoreError" : 4.290714458564679,
+            "scoreConfidence" : [
+                2003.127557981435,
+                2011.7089868985645
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2006.2883668,
+                "50.0" : 2007.3696286,
+                "90.0" : 2008.7788454,
+                "95.0" : 2008.7788454,
+                "99.0" : 2008.7788454,
+                "99.9" : 2008.7788454,
+                "99.99" : 2008.7788454,
+                "99.999" : 2008.7788454,
+                "99.9999" : 2008.7788454,
+                "100.0" : 2008.7788454
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2008.7788454,
+                    2008.2811332,
+                    2007.3696286,
+                    2006.3733882,
+                    2006.2883668
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.example.demo_mongo.PerformanceMongoTest.performTest",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/home/kirill/.sdkman/candidates/java/21.0.1-tem/bin/java",
+        "jvmArgs" : [
+            "-server"
+        ],
+        "jdkVersion" : "21.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.1+12-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "y" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 2020.6491656800001,
+            "scoreError" : 1.626497555346924,
+            "scoreConfidence" : [
+                2019.0226681246531,
+                2022.275663235347
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2020.1323798,
+                "50.0" : 2020.5560444,
+                "90.0" : 2021.3024132,
+                "95.0" : 2021.3024132,
+                "99.0" : 2021.3024132,
+                "99.9" : 2021.3024132,
+                "99.99" : 2021.3024132,
+                "99.999" : 2021.3024132,
+                "99.9999" : 2021.3024132,
+                "100.0" : 2021.3024132
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2021.3024132,
+                    2020.1323798,
+                    2020.5558588,
+                    2020.6991322,
+                    2020.5560444
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.example.demo_mongo.PerformanceMongoTest.performTest",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/home/kirill/.sdkman/candidates/java/21.0.1-tem/bin/java",
+        "jvmArgs" : [
+            "-server"
+        ],
+        "jdkVersion" : "21.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.1+12-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "y" : "10000"
+        },
+        "primaryMetric" : {
+            "score" : 2164.7768393600004,
+            "scoreError" : 30.801589156733,
+            "scoreConfidence" : [
+                2133.9752502032675,
+                2195.5784285167333
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2151.6153116,
+                "50.0" : 2166.725039,
+                "90.0" : 2171.7958418,
+                "95.0" : 2171.7958418,
+                "99.0" : 2171.7958418,
+                "99.9" : 2171.7958418,
+                "99.99" : 2171.7958418,
+                "99.999" : 2171.7958418,
+                "99.9999" : 2171.7958418,
+                "100.0" : 2171.7958418
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2151.6153116,
+                    2171.7958418,
+                    2163.6446894,
+                    2166.725039,
+                    2170.103315
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "com.example.demo_mongo.PerformanceMongoTest.performTest",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "/home/kirill/.sdkman/candidates/java/21.0.1-tem/bin/java",
+        "jvmArgs" : [
+            "-server"
+        ],
+        "jdkVersion" : "21.0.1",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.1+12-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "y" : "29000"
+        },
+        "primaryMetric" : {
+            "score" : 2371.38464284,
+            "scoreError" : 21.319290566136477,
+            "scoreConfidence" : [
+                2350.065352273864,
+                2392.7039334061365
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2363.5542566,
+                "50.0" : 2372.7070458,
+                "90.0" : 2377.1311104,
+                "95.0" : 2377.1311104,
+                "99.0" : 2377.1311104,
+                "99.9" : 2377.1311104,
+                "99.99" : 2377.1311104,
+                "99.999" : 2377.1311104,
+                "99.9999" : 2377.1311104,
+                "100.0" : 2377.1311104
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    2368.1433782,
+                    2363.5542566,
+                    2375.3874232,
+                    2377.1311104,
+                    2372.7070458
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
